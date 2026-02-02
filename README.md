@@ -20,4 +20,4 @@
   - 对py脚本进行打包：`pyinstaller -F --noconsole -n <程序名称> -i ./UI/Icon.ico Terraria145SeedSynth.py`
   - 当Powershell提示`INFO: Build complete!`后，将`./dist/`中的exe执行文件、`./UI`文件夹放在同一路径中即可完成打包
 
-![](./.ScreenShots/ScreenShot_001.png)
+![](./ScreenShots/ScreenShot_001.png)
