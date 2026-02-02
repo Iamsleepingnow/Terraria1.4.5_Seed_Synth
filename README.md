@@ -1,7 +1,8 @@
 # 泰拉瑞亚1.4.5种子合成器 Terraria Seed Synth
 
 - 此脚本用于生成泰拉瑞亚PC端1.4.5版本的融合种子。
-- 测试Python版本：3.10.10
+- 测试Python版本：3.10.10。
+- 我没有将`/UI`路径上传，因为里面有一个`unifont.ttf`字体文件，该文件不支持MIT协议，但可以去`https://www.maoken.com/freefonts/3747.html`自行下载。
 
 ## 构建方法
 
