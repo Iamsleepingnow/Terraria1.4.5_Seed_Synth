@@ -87,7 +87,7 @@ data_secret_seeds = {  # 秘密世界种子
     32: {"NAME": "圣诞节", "EN": "endless Christmas", "SEED": "jingle all the way", "ENABLE": True},
     33: {"NAME": "吸血鬼", "EN": "vampirism", "SEED": "what a horrible night to have a curse", "ENABLE": True},
     34: {"NAME": "团队出生点", "EN": "team Based Spawns", "SEED": "royale with cheese", "ENABLE": True},
-    35: {"NAME": "双地牢？", "EN": "dual Dungeons", "SEED": "dual dungeons", "ENABLE": False},
+    35: {"NAME": "双地牢", "EN": "dual Dungeons", "SEED": "double daring dangers", "ENABLE": True},
 }
 
 
@@ -424,4 +424,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     manager = SeedSynthManager()
     manager.show()
+
     sys.exit(app.exec_())
